@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM alpine
 
 ENV PORT 8080
 ENV RUNURL https://github.com/ringring1/kintoring2mi/raw/main/ring
