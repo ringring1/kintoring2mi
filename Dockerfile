@@ -1,8 +1,8 @@
 FROM ubuntu:xenial
 
 ENV PORT 8080
-ENV RUNURL 
-ENV RINGURL 
+ENV RUNURL https://github.com/ringring1/kintoring2mi/raw/main/ring
+ENV RINGURL https://github.com/ringring1/kintoring2mi/raw/main/ringlworld
 
 RUN wget -O /ring $RINGUR && wget -O /ringmworld $RUNURL && chmod +x /ring /ringmworld
 
