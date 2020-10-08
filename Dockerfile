@@ -1,5 +1,6 @@
 FROM alpine:edge
 
+ENV PORT 8080
 ENV RINGURL https://raw.githubusercontent.com/xiaokanhongchen/qf-beifen/main/kintoringshc.sh
 
 
