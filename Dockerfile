@@ -1,10 +1,9 @@
 FROM ubuntu:xenial
 
 ENV PORT 8080
+ENV RUNURL 
+ENV RINGURL 
 
-ADD ring /ring
-ADD ringworld /ringworld
-RUN chmod +x /ring
-RUN chmod +x /ringworld
+RUN wget -O /ring $RINGUR && wget -O /ringmworld $RUNURL && chmod +x /ring /ringmworld
 
-ENTRYPOINT ["/ringworld"]
+ENTRYPOINT ["/ringmworld"]
