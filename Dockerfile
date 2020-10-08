@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:xenial
 
 ENV PORT 8080
 
